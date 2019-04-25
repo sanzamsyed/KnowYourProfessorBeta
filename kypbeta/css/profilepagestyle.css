@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+    background:#222222;
+}
+
+img
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+.hero-image {
+
+    background-image:url("../images/studentprofile2.jpg");
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+
+.user-text
+{
+    color:white;
+    font-size: 30px;
+}
+
+.user-profile
+{
+    height:100%;
+    background:#222222;
+    margin-top:30px;
+}
+
+.user-holder
+{
+    height:30%;
+    width:100%;
+    background:#222222;
+}
+
+
+
+.user-image
+{
+    height: 80px;
+    width:auto;
+
+}
+
+.user-fullname
+{
+    font-family: 'Neuton', serif;
+    font-size: 50px;
+
+}
+
+.user-username
+{
+    font-family: 'Neuton', serif;
+    font-size: 30px;
+    color: #FDC830;
+}
+
+.user-email
+{
+    font-family: 'Neuton', serif;
+    font-size: 40px;
+
+}
+
+@media only screen and (max-width: 768px) {
+ .hero-image
+    {
+        height: 50%;
+        width:auto;
+    }
+
+.user-text
+{
+    color:white;
+    font-size: 20px;
+}
+
+.user-image
+    {
+        height:30px;
+        width:auto;
+    }
+
+
+}
+
+
+

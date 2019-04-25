@@ -1,0 +1,154 @@
+body{
+  background: #fff;
+}
+
+.prof-text
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.profprofile-container
+{
+    background:#222222;
+}
+
+.prof-text
+{
+    font-family: 'Neuton', serif;
+    font-size: 40px;
+    color:#fff;
+}
+
+.prof-image
+{
+    height:90px;
+    width:auto;
+}
+
+.ArnobsTextNormal
+{
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.MidDiv
+{
+    margin: 0 auto;
+}
+
+.NoCommentText
+{
+    font-size: 50px;
+    color: black;
+}
+
+
+
+
+/*FORM BG SHOULD BE WHITE DONT CHANGE */
+
+
+
+
+/*LINE*/
+.comments{
+  width: 700px;
+  margin: 100px auto;
+  padding: 0px 10px 0px 50px;
+  border-left: 2px solid #222222;
+}
+.prof-comment{
+  padding: 20px;
+  background: #222222;
+  color: #fff;
+  line-height: 1.7;
+  position: relative;
+}
+.prof-comment > span {
+    display: block;
+    padding: 5px 5px 10px 5px;
+    color: #7f8c8d;
+    font-size: 13px;
+
+}
+
+.prof-comment:before{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #FDC830;
+  top: -9px;
+  left: -61px;
+  position: absolute;
+}
+.prof-comment:after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #222222 #222222 transparent  transparent ;
+  border-width: 15px;
+  position: absolute;
+  top: 0px;
+  left: -30px;
+}
+
+.rating-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px 15px 20px 15px;
+	border-radius:3px;
+  margin:10px;
+}
+.bold{
+	font-weight:700;
+}
+.padding-bottom-7{
+	padding-bottom:7px;
+}
+
+.new-custom-btn
+{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+.comments{
+  width:220px;
+  padding: 0px 0px 0px 12px;
+
+}
+
+    .prof-comment
+    {
+        font-size: 12px;
+    }
+
+.prof-text
+    {
+        font-size:20px;
+
+    }
+
+    .prof-image
+    {
+        height:50px;
+        width:auto;
+    }
+
+
+
+}

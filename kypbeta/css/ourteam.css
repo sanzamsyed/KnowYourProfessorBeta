@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.ourteam-main {
+  padding-top: 40px;
+}
+
+.creators {
+    font-size: 20px;
+  }
+
+  /*.creators__list {
+    width: 80%;
+    margin: auto;
+  }*/
+
+  .creators__image-container {
+    width: 60%;
+    max-width: 320px;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+    transform: skew(20deg);
+    overflow: hidden;
+  }
+
+  .creators__image {
+    width: 100%;
+    vertical-align: top;
+    transform: skew(-20deg) scale(1.4);
+  }
+
+  .creators__info {
+    text-align: right;
+    padding: 15px;
+  }
+
+  #creator-2.creators {
+    text-align: right;
+  }
+
+  #creator-2 .creators__info {
+    text-align: left;
+  }
+
+  .creators__name {
+    margin: 3px;
+    color: #222222;
+    font-size: 32px;
+  }
+
+  .creators__subtitle {
+    margin: 0;
+    font-size: 18px;
+    color: #ccc;
+  }
+
+  .creators__subtitle a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .creators__subtitle a:hover,
+  .creators__subtitle a:active {
+    color: #7a7a7a;
+  }
+
+  .creators__text {
+    margin: 3.2px;
+  }
+
+  @media (min-width: 640px) {
+    .creators {
+      margin: 48px auto;
+      max-width: 1500px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .creators__image-container {
+      width: 66%;
+    }
+
+    .creators__info {
+      width: 30%;
+    }
+  }
+
+
+/*
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+   margin:15px 0px;
+}
+
+footer{
+    background-color:#222222;
+    padding: 60px 0px;
+}
+
+footer .menu li a{
+    color:#b1aca1;
+    padding:10px;
+    text-decoration:none;
+
+}
+
+footer .menu li a:hover{
+    color:#7dabdb;
+}
+
+.fa.fa-facebook ,
+.fa.fa-dropbox,
+.fa.fa-flickr ,
+.fa.fa-github ,
+.fa.fa-linkedin ,
+.fa.fa-tumblr ,
+.fa.fa-google-plus ,
+.fa.fa-tumblr {
+    color:#b1aca1;
+    font-size:20px;
+    padding:10px;
+}
+
+.fa.fa-facebook:hover,
+.fa.fa-dropbox:hover,
+.fa.fa-flickr:hover,
+.fa.fa-github:hover,
+.fa.fa-linkedin:hover,
+.fa.fa-tumblr:hover,
+.fa.fa-google-plus:hover,
+.fa.fa-tumblr:hover {
+    color:#6794c2;
+}
+
+
+.footer-icons
+{
+    padding-right:1%;
+}
+
+.footer-items
+{
+    padding-left: 30px;
+}
+
+
+.footer-copyright
+{
+    padding-top:1%;
+    padding-bottom:1%;
+    height:auto;
+}
+
+footer
+{
+    height: 150px;
+}
+*/
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+ .creators__text
+    {
+        font-size: 10px;
+    }
+
+ .creators__name
+    {
+        font-size: 14px;
+    }
+
+ .creators__subtitle
+    {
+        font-size: 11px;
+    }
+
+
+
+
+}
+

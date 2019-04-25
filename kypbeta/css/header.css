@@ -1,0 +1,399 @@
+/*BASIC HEADER CSS STARTS HERE*/
+/**************************************/
+
+
+/*BASIC FONT*/
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+em
+{
+    font-size: 13px;
+}
+
+
+.headerr
+{
+	height:auto;
+	width:auto;
+	
+}
+
+.web-name
+{
+	font-family: 'Chela One', cursive;
+	color:white;
+	
+
+}
+
+.web-name-2
+{
+	font-family: 'Chela One', cursive;
+	color:#FDC830;
+
+
+}
+
+/*BASIC BUTTON-PRIMARY PROPERTIES*/
+/**************************************/
+
+.btn {
+    padding: 3px 7px;
+    border: 0 none;
+    letter-spacing: 1px;
+    
+}
+ 
+
+ 
+.btn-primary {
+    background:#FDC830;
+    color: #434343;
+}
+ 
+.btn-primary:hover{
+    background: #FDC830;
+}
+
+.btn-primary:focus
+{
+    background: #FDC830;
+}
+ 
+
+
+/**************************************/
+
+
+
+
+.web-icon
+{
+    height:40px;
+    width:40px;
+}
+
+.navbar
+{
+	background:linear-gradient(#232526,#414345);
+	height: 60px;
+}
+
+.btn-outline-success
+{
+    border-radius: 15px;
+    
+    
+}
+/**************************************/
+
+
+
+
+
+
+/*ICON ALIGNMENT STARTS HERE*/
+/**************************************/
+/* enable absolute positioning */
+.inner-addon 
+{ 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa 
+{
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa  { left:  0px;}
+.right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input   { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+.left-addon textarea  { padding-left:  30px; }
+.right-addon textarea { padding-right: 30px; }
+
+
+.left-addon button  { padding-left:  30px; }
+.right-addon button { padding-right: 30px; }
+
+/**************************************/
+
+
+/*BASIC F-A ICONS COLOR*/
+/**************************************/
+.fa
+{
+    color:#232526;
+}
+
+/**************************************/
+
+
+/*MODAL STARTS HERE*/
+/**************************************/
+.header-section-main {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+
+
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid #FDC830;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3{
+  display: block;
+}
+
+
+
+.trying
+{
+    height: 300px;
+
+}
+
+
+/*MODAL CLOSE BUTTON*/
+
+.modal-btn-close
+{
+    background:#222222;
+    color:#FDC830;
+}
+
+
+/*THIS PART NEEDS FURTHER WORK*/
+
+
+
+
+
+/*SECONDARY FONT*/
+.secondary-font
+{
+    font-family: 'Chela One', cursive;
+	color:#222222;
+    font-size: 25px;
+}
+
+
+
+/*
+
+SECONDARY RESPONSIVE MEIDA QUERIES
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 3px;
+  }
+  label:before {
+    margin: 0;
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+      font-size: 3px;
+  }
+}
+*/
+/**************************************/
+
+
+/*MODAL CLOSE*/
+
+
+/*RESPONSIVE HEADER MEDIA QUERIES STARTS HERE*/
+/**************************************/
+@media only screen and (max-width: 768px) {
+  .web-name {
+    font-size: 15px;
+  }
+    .web-name-2 {
+    font-size: 15px;
+  }
+    .web-icon
+    {
+        height:20px;
+        width: 20px;
+    }
+    
+    .btn-outline-success
+    {
+        padding:2px 4px;
+        font-size:80%;
+    }
+    
+    label
+    {
+        font-size: 15px;
+    }
+    
+}
+/**************************************/
+
+
+/*BASIC FORM ELEMENT DISTANCE*/
+/**************************************/
+
+.form-group
+{
+    margin: 0 auto  10px;
+    padding: 7px;
+}
+/**************************************/
+
+
+
+
+/*WIGGLE WEBKIT*/
+/**************************************/
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform:rotateZ(0);
+    transform:rotateZ(0);
+  }
+  10% {
+    -webkit-transform:rotateZ(-15deg);
+    transform:rotateZ(-15deg);
+  }
+  20% {
+    -webkit-transition:rotateZ(10deg);
+    transition:rotateZ(10deg);
+  }
+  25% {
+    -webkit-transition:rotateZ(-10deg);
+    transition:rotateZ(-10deg);
+  }
+  30% {
+    -webkit-transition:rotateZ(6deg);
+    transition:rotateZ(6deg);
+  }
+  35% {
+    -webkit-transform:rotateZ(-4deg);
+    transform:rotateZ(-4deg);
+  }
+  40% {
+    transform:rotateZ(7deg);
+  }
+  50% {
+    transform:rotateZ(-6deg);
+  }
+  60% {
+    transform:rotateZ(10deg);
+  }
+  70% {
+    transform:rotateZ(-14deg;)
+  }
+  80% {
+    transform:rotateZ(3deg);
+  }
+  90% {
+    transform:rotateZ(-7deg);
+  }
+  100% {
+    -webkit-transition:rotateZ(0);
+    transition:rotateZ(0);
+  }
+}
+/**************************************/
+
+
+
+.errors
+{
+    background:pink;
+}
+
+input[type="email"] {
+    text-transform: lowercase;
+}
+
+
+
+
+
+
+
+
+/*SECONDARY RESPOINSIVE MEDIA QUERIES*/
+/**************************************/
+
+@media only screen and (max-width: 320px) {
+  .web-name {
+    font-size: 17px;
+  }
+    .web-name-2 {
+    font-size: 17px;
+  }
+    .web-icon
+    {
+        height:20px;
+        width: 20px;
+    }
+    
+    .header-btn
+    {
+        padding:1px 3px;
+        font-size:80%;
+        position:relative;
+        vertical-align: text-bottom;
+        
+    }
+    
+    
+
+
+}
+/**************************************/
+
